@@ -1,7 +1,7 @@
 // --- LOCAL TEST MODE CONFIGURATION ---
 // Set to true to simulate network latency for performance testing.
 // Set to false to disable artificial delays.
-const LOCAL_TEST_MODE = true;
+const LOCAL_TEST_MODE = false;
 const LOCAL_TEST_DELAY = 90000; // Delay in milliseconds (e.g., 1000, 3000, 5000)
 
 let latencyCallCount = 0;
